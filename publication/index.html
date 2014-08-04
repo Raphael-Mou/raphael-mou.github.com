@@ -1,0 +1,45 @@
+---
+layout: publication
+title: Lichao Mou - Publication
+description: Lichao Mou's publication
+category: publication
+---
+
+<!--<p class="fancy">
+  Here are some of the products I worked on. In need of
+  a web software engineer with an eye for design and a dedication to great
+  <abbr title="User Experience">UX</abbr>?
+
+  <a href="/contact/">Ping me</a> and let's build awesome and useful stuff!
+</p>-->
+
+ <h1>Paper</h1>
+
+{% for publication in site.data.publication %}
+<!--   <section>
+   <a href="{{ publication.url }}">
+      <img class="inline pull-right" src="/images/publication/{{ publication.image }}"
+           alt="{{ publication.name }} Screenshot" width="280">
+    </a>
+    <h2><a href="{{ publication.url }}">{{ publication.name }}</a></h2>
+    <h3>{{ publication.oneliner }}</h3>
+    <p><strong>My role:</strong> {{ publication.role }}</p>
+    <p>{{ publication.description}}</p>
+    <p>
+      <strong>Technologies:</strong> {{ publication.technologies | join: ", " }}
+    </p>
+  </section>-->
+  <section>
+<!--    <a href="{{ publication.url }}">
+      <img class="inline pull-right" src="/images/publication/{{ publication.image }}"
+           alt="{{ publication.name }} Screenshot" width="280">
+    </a>-->
+    <p>Xuelong Li, <strong>Lichao Mou</strong>, and Xiaoqiang. Lu. <i>Scene Parsing from An MAP Perspective</i>. IEEE Transactions on Cybernetics. (Under review)</p>
+    <p>Xiaoqiang Lu, Xuelong Li, and <strong>Lichao Mou</strong>. <i>Semi-Supervised Multi-task Learning for Scene Recognition</i>. IEEE Transactions on Cybernetics. (Under review)</p>
+    <p>Yuan Yuan, <strong>Lichao Mou</strong>, and Xiaoqiang Lu. <i>Scene Recognition by Manifold Regularized Deep Learning Architecture</i>. IEEE Transactions on Neual Networks and Learning Systems. (Under review)</p>
+    <p><strong>Lichao Mou</strong>, Xiaoqiang Lu, and Yuan Yuan. <i>Object or Background: Whose Call is It in Complicated Scene Classification</i>? In IEEE China Summit and International Conference on Signal and Information Processing (ChinaSIP), 2013.</p>
+    <p><strong>Lichao Mou</strong>, and Xiaoying Pan. <i>Union Coding Based Immune Clone Selection Unsupervised Clustering Algorithm</i>. In International Conference on Computer Application and System Modeling, (ICCASM), 2012.</p>    
+  </section>
+<!--  <div class="spacer"></div>-->
+{% endfor %}
+<div class="spacer"></div>
